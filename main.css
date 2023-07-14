@@ -1,10 +1,66 @@
 body{
-  background-image: linear-gradient(#F4C095,#679289);
-  width: fit-content;
+  background-image: linear-gradient(#679289,#F4C095);
+  background-size:cover;
+  text-align: center;
+  border: none;
+  margin: none;
+}
+header{
+  margin-bottom: 20px;
+}
+main{
+  margin: none;
+}
+article>h1{
+  color: #F4C095;
+  text-shadow:0 0 8px#071E22 ;
+}
+
+#selfie{
+  max-width: 250px;
+  max-height: 250px;
+  border: 10px solid #1D7874;
+  transition: border-width .5s linear;
+  border-image: linear-gradient(#F4C095, #679289)3;
+  border-radius: 25px;
+}
+li{
+  list-style-type: none;
+}
+#my-name{
+  font-family: 'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  
 }
 #art-job{
- 
+  font-family: 'Gloria Hallelujah', cursive, Arial, Helvetica, sans-serif;
+  border: 24px solid #679289;
+  border-style:groove;
+  border-radius: 45px;
+  max-width: 60%;
+  text-align: center;
+  transition: border-width .5s linear;
+  margin:auto;
+  padding: 20px;
 }
 #pizza-job{
-
+  font-family: 'Hanalei Fill', cursive, Arial, Helvetica, sans-serif;
+  border: 24px solid #679289;
+  border-style:double;
+  border-radius: 45px;
+  box-shadow: 0 0 3px#071E22;
+  max-width: 60%;
+  text-align: center;
+  transition: border-width .5s linear;
+  margin:auto;
+  padding: 20px;
+}
+#bottom{
+  background-color: #071E22;
+  margin: 0;
+  
+}
+#ig-btn{
+  margin: 15px;
+padding: 2px;
 }
