@@ -1,21 +1,28 @@
+html{
+  height:100%;  
+  background-image: linear-gradient(#679289,#F4C095);
+  background-size:100%;
+}
 body{
   background-image: linear-gradient(#679289,#F4C095);
   background-size:cover;
   text-align: center;
   border: none;
-  margin: none;
+  margin: 0px;
+  padding: none;
+}
+div{
+  margin: 20px;
 }
 header{
   margin-bottom: 20px;
-}
-main{
-  margin: none;
-}
-article>h1{
   color: #F4C095;
-  text-shadow:0 0 8px#071E22 ;
+  text-shadow:0 0 8px#071E22
 }
-
+a{
+  color:#ee9b00;
+  text-shadow: 0 0 7px #0a1c2b ;
+}
 #selfie{
   max-width: 250px;
   max-height: 250px;
@@ -48,19 +55,27 @@ li{
   border: 24px solid #679289;
   border-style:double;
   border-radius: 45px;
-  box-shadow: 0 0 3px#071E22;
+  box-shadow: 0 0 2px#071E22;
   max-width: 60%;
   text-align: center;
   transition: border-width .5s linear;
   margin:auto;
   padding: 20px;
 }
-#bottom{
-  background-color: #071E22;
-  margin: 0;
-  
+p{
+  font-family:'Press Start 2P', cursive, Arial, Helvetica, sans-serif;
+  font-size: small;
 }
 #ig-btn{
-  margin: 15px;
-padding: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 0 4px #cfe0c3 ;
+  color: #071E22;
+  background-color: rgb(241, 234, 132);
+  border:3px solid #679289;
+  border-radius: 100%;
+  margin-top: 5px;
+  margin-bottom: 100px;
+  padding: 20px;
 }
